@@ -3,7 +3,7 @@ import GoldParticles from './components/GoldParticles';
 import CountdownPage from './components/CountdownPage';
 import CelebrationPage from './components/CelebrationPage';
 
-const BIRTHDAY = new Date('2026-03-08T00:00:00+07:00');
+const BIRTHDAY = new Date('2026-03-09T00:00:00+07:00');
 
 export default function App() {
   const [isBirthday, setIsBirthday] = useState(false);
