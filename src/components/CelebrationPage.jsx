@@ -5,16 +5,17 @@ import WishesSection from './WishesSection';
 import Footer from './Footer';
 import MusicPlaylist from './MusicPlaylist';
 import GiftPage from './GiftPage';
+import PhotoAlbum from './PhotoAlbum';
 import Confetti from './Confetti';
 
-const SLIDE_LABELS = ['Greeting', 'Playlist', 'Message', 'Wishes', 'Gift', 'Close'];
+const SLIDE_LABELS = ['Greeting', 'Playlist', 'Message', 'Wishes', 'Album', 'Gift', 'Close'];
 
 export default function CelebrationPage() {
     const [entered, setEntered] = useState(false);
     const [currentSlide, setCurrentSlide] = useState(0);
     const [isTransitioning, setIsTransitioning] = useState(false);
     const touchStartRef = useRef(null);
-    const totalSlides = 6;
+    const totalSlides = 7;
 
     const handleEnter = useCallback(() => {
         setEntered(true);
@@ -119,6 +120,9 @@ export default function CelebrationPage() {
                 </div>
                 <div className="slide">
                     <WishesSection />
+                </div>
+                <div className="slide">
+                    <PhotoAlbum />
                 </div>
                 <div className="slide">
                     <GiftPage />

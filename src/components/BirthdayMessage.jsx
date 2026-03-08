@@ -12,13 +12,12 @@ export default function BirthdayMessage() {
                         Anida!
                     </h2>
                     <p className="message-body visible">
-                        Di hari spesialmu ini, semoga semua impian dan harapanmu
-                        menjadi kenyataan. Kamu layak mendapatkan semua kebahagiaan
-                        yang ada di dunia ini. Terima kasih sudah menjadi seseorang
-                        yang luar biasa istimewa. Selamat ulang tahun, sayang! 💛
+                        "HBD ya ! Semoga semua wish kamu tercapai tahun ini. You deserve to be happy, seriusan.
+                        dan terimakasih udah jadi orang yang spesial bagiku selama ini.
+                        nggak banyak kata kata, yang penting sehat, sehat, senang terus,bahagia terus. dan ya sekali lagi Happy birthday!"! 💛
                     </p>
                     <p className="message-signature visible">
-                        — With love, Him ♥
+                        — From, Him ♥
                     </p>
                 </div>
                 {/* <div className="message-music-side">

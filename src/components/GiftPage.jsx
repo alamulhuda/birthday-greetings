@@ -83,8 +83,8 @@ export default function GiftPage() {
                             <span className="gold-text">For You, Anida</span>
                         </h2>
                         <p className="gift-note">
-                            Seperti bunga ini yang mekar abadi,<br />
-                            begitu juga cinta yang kuberikan untukmu 💛
+                            Keindahan tak perlu penjelasan, cukup seperti bunga.<br />
+                            Mekar tanpa suara tapi bermakna 🌹
                         </p>
                     </div>
                 </div>

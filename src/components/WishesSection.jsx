@@ -14,11 +14,6 @@ const wishes = [
         title: 'Sukses Besar',
         text: 'Semoga segala cita-cita dan impianmu tercapai satu per satu. Kamu pasti bisa!',
     },
-    {
-        icon: '💖',
-        title: 'Penuh Cinta',
-        text: 'Semoga selalu dikelilingi orang-orang yang menyayangimu tulus dan sepenuh hati.',
-    },
 ];
 
 export default function WishesSection() {

@@ -32,8 +32,17 @@ export default function HeroSection() {
                     ))}
                 </h1>
                 <div className="hero-divider" />
-                <p className="hero-date">09 · 03 · 2026</p>
-                <p className="hero-age">Tahun- <span className="gold-text">26</span></p>
+                <div className="hero-date-row">
+                    <span className="hero-date-segment">09</span>
+                    <span className="hero-date-dot">✦</span>
+                    <span className="hero-date-segment">03</span>
+                    <span className="hero-date-dot">✦</span>
+                    <span className="hero-date-segment">2026</span>
+                </div>
+                <div className="hero-age-badge">
+                    <span className="hero-age-number">26</span>
+                    <span className="hero-age-suffix">th</span>
+                </div>
             </div>
         </section>
     );
